@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom Hearts 2</title>
+    <link rel="stylesheet" href="styles/stylessubpagina2.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+           <a href="index.html"><img src="images/Kingdom_Hearts_2_logo.svg.png" alt="Game Logo" height="120"></a>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="subpagina1.html">Characters</a></li>
+                <li><a href="#">Games</a></li>
+            </ul>
+        </nav>
+    </header>
+    <audio id="ZoomKH" src="sounds/ZoomKH.mp3"></audio>
+    <audio id="OutKH" src="sounds/OutKH.mp3"></audio>
+    <main>
+        <h1>Kingdom Hearts Games</h1>
+        <div class="games-container">
+            <div class="game-logo" id="game1" onclick="displayGameInfo(1)">
+                <img src="images/logos/KH1Logo.png" alt="KH1Logo">
+                <p>Kingdom Hearts I</p>
+                <div class="game-info"></div>
+            </div>
+            <div class="game-logo" id="game2" onclick="displayGameInfo(2)">
+                <img src="images/Kingdom_Hearts_II_logo_KHII.png" alt="Logo Game 2">
+                <p>Kingdom Hearts II</p>
+                <div class="game-info"></div>
+            </div>
+            <div class="game-logo" id="game3" onclick="displayGameInfo(3)">
+                <img src="images/logos/KH3Logo.png" alt="Logo Game 3">
+                <p>Kingdom Hearts III</p>
+                <div class="game-info"></div>
+            </div>
+            <div class="game-logo" id="game4" onclick="displayGameInfo(4)">
+                <img src="images/logos/KHCOMLogo.png" alt="Logo Game 4">
+                <p>Kingdom Hearts: Chain of Memories</p>
+                <div class="game-info"></div>
+            </div>
+            <div class="game-logo" id="game5" onclick="displayGameInfo(5)">
+                <img src="images/logos/KHDaysLogo.png" alt="Logo Game 5">
+                <p>Kingdom Hearts 358/2 Days</p>
+                <div class="game-info"></div>
+            </div>
+            <div class="game-logo" id="game6" onclick="displayGameInfo(6)">
+                <img src="images/logos/KHBBSLogo.png" alt="Logo Game 6">
+                <p>Kingdom Hearts: Birth by Sleep</p>
+                <div class="game-info"></div>
+            </div>
+            <!-- New Game 7 -->
+            <div class="game-logo" id="game7" onclick="displayGameInfo(7)">
+                <img src="images/logos/KH3DLogo.png" alt="Logo Game 7">
+                <p>Kingdom Hearts: Dream Drop Distance</p>
+                <div class="game-info"></div>
+            </div>
+            <!-- New Game 8 -->
+            <div class="game-logo" id="game8" onclick="displayGameInfo(8)">
+                <img src="images/logos/KH02Logo.png" alt="Logo Game 8">
+                <p>Kingdom Hearts 0.2 Birth by Sleep</p>
+                <div class="game-info"></div>
+            </div>
+            <!-- New Game 9 -->
+            <div class="game-logo" id="game9" onclick="displayGameInfo(9)">
+                <img src="images/logos/KHCodedLogo.png" alt="Logo Game 9">
+                <p>Kingdom Hearts: Coded</p>
+                <div class="game-info"></div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div id="footer-time">Current Time: <span id="time"></span></div>
+    </footer>
+
+    <script src="scripts/scriptsubpagina2.js"></script>
+</body>
+</html>

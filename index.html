@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kingdom Hearts 2</title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/script.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="images/Kingdom_Hearts_2_logo.svg.png" alt="KH2 logo" height="120">
+            </a>
+        </div>
+        <nav>
+            <ul id="menu" class="menu hidden">
+                <li><a href="#">Home</a></li>
+                <li><a href="subpagina1.html">Characters</a></li>
+                <li><a href="subpagina2.html">Games</a></li>
+            </ul>
+            <div class="menu-icon" onclick="toggleMenu()">
+                <span>&#9776;</span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="showcase">
+            <div class="picture">
+                <video class="background-video" autoplay loop muted>
+                    <source src="videos/KH2Trailer.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <audio id="hover-sound" src="sounds/HoverKH2.mp3" preload="auto"></audio>
+                <img src="images/Kingdom_Hearts_II_logo_KHII.png" alt="KH2 logo" width="500" class="logo-image">
+            </div>
+        </section>
+
+        <section class="info">
+            <h3>INFO</h3>
+            <p><strong>Kingdom Hearts II</strong> is an action role-playing game made by Square Enix. <br>It is the sequel to the first <em>Kingdom Hearts</em> game.</p>
+<br>
+            <div class="info-grid">
+                <div class="info-box">
+                    <h4>Key Information:</h4>
+                    <ul>
+                        <li><strong>Title:</strong> Kingdom Hearts II</li>
+                        <li><strong>Release Date:</strong> <br>December 22, 2005 (Japan);<br>March 28, 2006 (NA);<br> April 28, 2006 (Europe)</li>
+                        <li><strong>Genre:</strong> Action RPG</li>
+                        <li><strong>Platforms:</strong> Originally for PlayStation 2, later available on PlayStation 3, PlayStation 4, Xbox One, and PC.</li>
+                    </ul>
+                </div>
+                
+                <div class="info-box">
+                    <h4>Story Overview:</h4>
+                    <p>The game continues the journey of Sora, Donald Duck, and Goofy as they look for their friends Riku and Kairi. They fight against dark creatures called Heartless and a group known as Organization XIII. The story includes characters from Disney movies and focuses on friendship and the battle between light and darkness.</p>
+                </div>
+                
+                <div class="info-box">
+                    <h4>Gameplay:</h4>
+                    <ul>
+                        <li><strong>Combat:</strong> The game has a fun battle system, allowing Sora to change forms and gain new powers. Players can use magic, items, and special characters to help in battles.</li>
+                        <li><strong>Worlds:</strong> Players visit different Disney-themed worlds, such as those from <em>The Lion King</em>, <em>Pirates of the Caribbean</em>, and <em>Mulan</em>.</li>
+                        <li><strong>Customization:</strong> Players can change Sora’s abilities and gear to make the game fit their style.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="last-row">
+                <div class="info-box">
+                    <h4>Reception:</h4>
+                    <p><em>Kingdom Hearts II</em> was well-received for its gameplay, story, and graphics. It won several awards and is considered one of the best games on the PlayStation 2.</p>
+                </div>
+                
+                <div class="info-box">
+                    <h4>Legacy:</h4>
+                    <p>The game has had a significant impact on the gaming community, leading to spin-offs, sequels, and a devoted fanbase. It remains a beloved title in the <em>Kingdom Hearts</em> series.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div id="footer-time">Current Time: <span id="time"></span></div>
+    </footer>
+</body>
+</html>
